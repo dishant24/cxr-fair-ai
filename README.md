@@ -17,8 +17,8 @@ Build processing method for an AI model that is:
 ## 📦 Installation
 
 ```bash
-git clone git@gitlab.fme.lan:sutariya/cxr_preprocessing.git
-cd cxr_preprocessing
+git clone https://github.com/dishant24/cxr-fair-ai.git
+cd cxr-fair-ai
 pip install -r requirements.txt
 ```
 
