@@ -34,7 +34,7 @@ job "mimic-diagnostic" {
       config {
         image = "registry.fme.lan/dockerhub/pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime"
         command = "bash"
-        args = ["-c", "pip install pandas numpy matplotlib torchvision torch tqdm scikit-image wandb torchcontrib scikit-learn seaborn scikit-learn --root-user-action=ignore && export WANDB_API_KEY=c97efa068ce628aa2d4ad9bbc8b2b2dbaa6c6387 && wandb login && python deep_learning/output/Sutariya/main/mimic/mimic_cxr_model.py"]
+        args = ["-c", "pip install pandas numpy matplotlib torchvision torch tqdm scikit-image wandb torchcontrib scikit-learn seaborn scikit-learn --root-user-action=ignore && export WANDB_API_KEY=api_key && wandb login && python deep_learning/output/Sutariya/main/mimic/mimic_cxr_model.py"]
         work_dir = "/"
         shm_size = 17179869184
       }
